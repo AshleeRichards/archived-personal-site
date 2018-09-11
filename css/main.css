@@ -67,7 +67,7 @@ li {
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: rgb(255, 169, 73);
+  color: #2c4266;
   text-decoration: none;
 }
 
@@ -90,21 +90,22 @@ a:active {
   height: 450px;
 
   background:
-             linear-gradient(#414f66, transparent 90%),
+             linear-gradient(#2c4266, transparent 70%),
              linear-gradient(0deg, #fff, transparent),
-             #ffa949 url('../img/bwcathedralcove.jpg') no-repeat center;
+             #2c4266 url('../img/bwcathedralcove.jpg') no-repeat center;
 
   background-size: cover;
 }
 
 .title {
-  color: #414f66;
+  color: #2c4266;
   font-size: 1.625rem; /* 26px/16px */
+  text-transform: uppercase;
   letter-spacing: .065em;
-  font-weight: 200;
-  border-bottom: 2px solid;
+  font-weight: 250;
+  /* border-bottom: .5px dashed; */
   padding-bottom: 10px;
-}
+  }
 
 .intro {
   font-size: 1.25em; /* 20px/16px */
@@ -115,6 +116,7 @@ a:active {
 .main-header,
 .main-footer {
   text-align: center;
+  padding-top: 395px;
 }
 
 .primary-content {
@@ -129,9 +131,9 @@ a:active {
 }
 
 .callout {
+  color: #2c4266;
   font-size: 1.25em;
   border-bottom: 3px solid;
-  color: #414f66;
   padding: 0 9px 3px;
   margin-top: 20px;
   display: inline-block;
