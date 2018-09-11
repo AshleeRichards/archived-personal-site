@@ -2,7 +2,7 @@
 
 ## Description
 ```
-A brief description of your project
+A very simple one page personal intro.
 
 ```
 
